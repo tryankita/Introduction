@@ -13,9 +13,11 @@ body {
   --muted: #b9b1a2;
   --panel: #1e1c19;
   --line: #38332c;
-  --wrap: 72rem;
+  --wrap: 75rem;
   --pad: clamp(1.25rem, 4vw, 3rem);
 }
+
+html, body { width: 100%; }
 
 main {
   max-width: none;
@@ -25,7 +27,7 @@ main {
 h1, h2, h3 { font-family: "Bricolage Grotesque", "Figtree", system-ui, sans-serif; line-height: 1.1; margin: 0; }
 a { color: var(--accent); font-weight: 600; text-decoration: none; }
 a:focus-visible, .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
-.wrap { width: min(100%, var(--wrap)); margin: 0 auto; padding: 0 var(--pad); }
+.wrap { box-sizing: border-box; width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 var(--pad); }
 section { padding: clamp(3.5rem, 9vw, 7rem) 0; }
 section + section { border-top: 2px solid var(--line); }
 h2 { font-size: clamp(2rem, 5vw, 3.25rem); margin-bottom: 1.5rem; }
