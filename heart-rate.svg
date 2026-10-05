@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Heart Rate monitoring preview</title>
+  <desc id="desc">A heart rate monitor screen with a heart icon and start measurement button</desc>
+  <defs>
+    <linearGradient id="button" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff6669"/>
+      <stop offset="1" stop-color="#f0542a"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="800" height="520" rx="28" fill="#090a0f"/>
+  <rect x="235" y="28" width="330" height="54" rx="27" fill="#15161c" stroke="#2d2e35"/>
+  <rect x="241" y="34" width="160" height="42" rx="21" fill="#292a30"/>
+  <text x="321" y="62" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Heart Rate</text>
+  <text x="482" y="62" text-anchor="middle" fill="#777880" font-family="Arial, sans-serif" font-size="20" font-weight="700">Breathing</text>
+  <circle cx="400" cy="178" r="72" fill="#ff6468" opacity=".18" filter="url(#glow)"/>
+  <path d="M400 229c-9-9-65-51-65-91 0-25 18-43 40-43 13 0 24 6 25 17 2-11 13-17 26-17 22 0 40 18 40 43 0 40-56 82-66 91z" fill="#ff6669"/>
+  <text x="400" y="306" text-anchor="middle" fill="#ff684e" font-family="Arial, sans-serif" font-size="38" font-weight="700">Heart Rate</text>
+  <text x="400" y="346" text-anchor="middle" fill="#97979e" font-family="Arial, sans-serif" font-size="19">Place your finger over the rear camera</text>
+  <text x="400" y="373" text-anchor="middle" fill="#97979e" font-family="Arial, sans-serif" font-size="19">and flashlight to begin</text>
+  <rect x="258" y="410" width="284" height="62" rx="31" fill="url(#button)"/>
+  <text x="400" y="449" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="20" font-weight="700">Start Measurement</text>
+</svg>

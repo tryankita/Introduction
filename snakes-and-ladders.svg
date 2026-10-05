@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Snakes and Ladders game preview</title>
+  <desc id="desc">A warm cream game screen with a Snakes and Ladders title and start button.</desc>
+  <defs><linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6e8c7"/><stop offset="1" stop-color="#e8cc96"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#paper)"/>
+  <path d="M0 420h800" stroke="#b9975e" stroke-opacity=".35" stroke-width="3"/>
+  <text x="400" y="112" text-anchor="middle" fill="#321910" font-family="Georgia,serif" font-size="52" letter-spacing="3">SNAKES &amp; LADDERS</text>
+  <text x="400" y="151" text-anchor="middle" fill="#947b58" font-family="Georgia,serif" font-size="20" font-style="italic">A game of fate</text>
+  <rect x="215" y="190" width="370" height="245" rx="9" fill="#f7e9c9" stroke="#ddbd7d" stroke-width="3"/>
+  <rect x="300" y="220" width="200" height="46" rx="4" fill="#321910"/>
+  <text x="400" y="250" text-anchor="middle" fill="#f4dfb0" font-family="Georgia,serif" font-size="18">SOLO</text>
+  <text x="400" y="302" text-anchor="middle" fill="#614633" font-family="Georgia,serif" font-size="13" letter-spacing="2">YOUR NAME</text>
+  <rect x="270" y="319" width="260" height="42" rx="3" fill="#f8edda" stroke="#ddbd7d" stroke-width="2"/>
+  <text x="290" y="346" fill="#b49b73" font-family="Georgia,serif" font-size="15">Enter your name</text>
+  <rect x="270" y="380" width="260" height="38" rx="3" fill="#321910"/>
+  <text x="400" y="405" text-anchor="middle" fill="#f4dfb0" font-family="Georgia,serif" font-size="15">BEGIN THE GAME</text>
+</svg>
